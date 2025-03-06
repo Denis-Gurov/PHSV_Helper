@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>PHSV Helper</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>1pgifm6esdu2xf8j10vuoyu8cvi88uua.png</normaloff>1pgifm6esdu2xf8j10vuoyu8cvi88uua.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+	background-color: #2E2B3F;
+	border: none;
+}
+QMenuBar {
+    background-color: #2E2B3F; /* Цвет фона для верхней панели меню */
+    color: white; /* Цвет текста */
+    border: none; /* Убирает рамку, если есть */
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+    background-color: #2E2B3F; /* Цвет фона */
+    border: none;
+}
+</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabWidget {
+    background-color: #2E2B3F; /* Цвет фона для всего виджета */
+	border: none;
+}
+
+QTabBar::tab {
+    background :#7961F1; /* Цвет фона вкладки */
+    color: #333333; /* Цвет текста */
+    padding: 10px; /* Отступы */
+    border-bottom: none; /* Убираем нижнюю рамку для активной вкладки */
+}
+
+QTabBar::tab:selected {
+    background: #0090B3; /* Цвет фона для выбранной вкладки */
+    color: white; /* Цвет текста для выбранной вкладки */
+}
+
+QTabBar::tab:hover {
+    background-color: #e67e22; /* Цвет фона при наведении */
+}
+
+QTabBar::tab:!selected {
+    margin-left: 0px; /* Отступ между вкладками */
+}
+
+QTabWidget::pane {
+    border: none; /* Убирает рамку вокруг вкладок */
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+    background-color: #221F2E; /* Цвет фона */
+    border: none;
+}
+</string>
+     </property>
+     <attribute name="title">
+      <string>Пользователи</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>20</y>
+        <width>641</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+    background-color: #2E2B3F; /* Цвет фона */
+    border: none;
+	border-radius: 5px;
+    color: #FFFFFF;
+}
+</string>
+      </property>
+      <property name="title">
+       <string>Управление приложениями</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     QPushButton {
+         background-color: #0090B3;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+     }
+     QPushButton:hover {
+         background-color: #e67e22;
+     }</string>
+       </property>
+       <property name="text">
+        <string>Перезапустить ОПОРУ</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     QPushButton {
+         background-color: #0090B3;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+     }
+     QPushButton:hover {
+         background-color: #e67e22;
+     }</string>
+       </property>
+       <property name="text">
+        <string>Запустить ЖНВЛП</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+	background-color: #221F2E; /* Цвет фона */
+    border: none; /* Убирает рамку у виджета внутри вкладки */
+    margin: 0; /* Убирает внешние отступы */
+    padding: 0; /* Убирает внутренние отступы */
+}</string>
+     </property>
+     <attribute name="title">
+      <string>Администратор</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>20</y>
+        <width>641</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+    background-color: #2E2B3F; /* Цвет фона */
+    border: none;
+	border-radius: 5px;
+    color: #FFFFFF;
+}
+</string>
+      </property>
+      <property name="title">
+       <string>Установка приложений</string>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     QPushButton {
+         background-color: #0090B3;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+     }
+     QPushButton:hover {
+         background-color: #e67e22;
+     }</string>
+       </property>
+       <property name="text">
+        <string>Установить ОПОРУ</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     QPushButton {
+         background-color: #0090B3;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+     }
+     QPushButton:hover {
+         background-color: #e67e22;
+     }</string>
+       </property>
+       <property name="text">
+        <string>Установить 7-Zip</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="WinRAR">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     QPushButton {
+         background-color: #0090B3;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+     }
+     QPushButton:hover {
+         background-color: #e67e22;
+     }</string>
+       </property>
+       <property name="text">
+        <string>Установить WinRAR</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     QPushButton {
+         background-color: #0090B3;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+     }
+     QPushButton:hover {
+         background-color: #e67e22;
+     }</string>
+       </property>
+       <property name="text">
+        <string>Запустить активатор</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Windows/resources/Новый текстовый документ.qrc"/>
+ </resources>
+ <connections/>
+</ui>
