@@ -149,6 +149,24 @@ class Ui_MainWindow(object):
 "         background-color: #e67e22;\n"
 "     }")
         self.pushButton_5.setObjectName("pushButton_5")
+        self.ProgramUpdate = QtWidgets.QPushButton(self.groupBox_2)
+        self.ProgramUpdate.setGeometry(QtCore.QRect(440, 470, 191, 41))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.ProgramUpdate.setFont(font)
+        self.ProgramUpdate.setStyleSheet("     QPushButton {\n"
+"         background-color: #0090B3;\n"
+"         color: white;\n"
+"         border: none;\n"
+"         padding: 10px 20px;\n"
+"         border-radius: 5px;\n"
+"     }\n"
+"     QPushButton:hover {\n"
+"         background-color: #e67e22;\n"
+"     }")
+        self.ProgramUpdate.setObjectName("ProgramUpdate")
         self.tabWidget.addTab(self.tab, "")
         self.tab_2 = QtWidgets.QWidget()
         self.tab_2.setAutoFillBackground(False)
@@ -251,7 +269,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -260,6 +278,7 @@ class Ui_MainWindow(object):
         self.groupBox_2.setTitle(_translate("MainWindow", "Управление приложениями"))
         self.pushButton_3.setText(_translate("MainWindow", "Перезапустить ОПОРУ"))
         self.pushButton_5.setText(_translate("MainWindow", "Запустить ЖНВЛП"))
+        self.ProgramUpdate.setText(_translate("MainWindow", "Обновить PHSV Helper"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Пользователи"))
         self.groupBox.setTitle(_translate("MainWindow", "Установка приложений"))
         self.OPORA.setText(_translate("MainWindow", "Установить ОПОРУ"))

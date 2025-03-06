@@ -103,7 +103,7 @@ QTabWidget::pane {
 }</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <property name="font">
@@ -223,6 +223,38 @@ QTabWidget::pane {
        </property>
        <property name="text">
         <string>Запустить ЖНВЛП</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ProgramUpdate">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>470</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     QPushButton {
+         background-color: #0090B3;
+         color: white;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 5px;
+     }
+     QPushButton:hover {
+         background-color: #e67e22;
+     }</string>
+       </property>
+       <property name="text">
+        <string>Обновить PHSV Helper</string>
        </property>
       </widget>
      </widget>
