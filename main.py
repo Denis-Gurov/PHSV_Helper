@@ -12,11 +12,11 @@ def installation_exe(self, exe_name):
     copier = FileCopier()
     exe = ExeRunner()
     copier.set_paths(fr"\\192.168.1.191\shared\Public\ToolsHelper\{exe_name}",
-                     r"C:\Users\d.gurov\Desktop")
+                     fr'C:\Program Files\PHSV Helper\Temp')
     copier.copy_file()
-    exe.set_exe_path(fr'C:\Users\d.gurov\Desktop\{exe_name}')
+    exe.set_exe_path(fr'C:\Program Files\PHSV Helper\Temp\{exe_name}')
     exe.run()
-    copier.delete_file(fr'C:\Users\d.gurov\Desktop\{exe_name}')
+    copier.delete_file(fr'C:\Program Files\PHSV Helper\Temp\{exe_name}')
 
 
 if __name__ == "__main__":
