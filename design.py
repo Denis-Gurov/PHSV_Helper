@@ -25,14 +25,14 @@ class Ui_MainWindow(object):
         icon.addPixmap(QtGui.QPixmap("1pgifm6esdu2xf8j10vuoyu8cvi88uua.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet("QMainWindow {\n"
-                                 "    background-color: #2E2B3F;\n"
-                                 "    border: none;\n"
-                                 "}\n"
-                                 "QMenuBar {\n"
-                                 "    background-color: #2E2B3F; /* Цвет фона для верхней панели меню */\n"
-                                 "    color: white; /* Цвет текста */\n"
-                                 "    border: none; /* Убирает рамку, если есть */\n"
-                                 "}")
+"    background-color: #2E2B3F;\n"
+"    border: none;\n"
+"}\n"
+"QMenuBar {\n"
+"    background-color: #2E2B3F; /* Цвет фона для верхней панели меню */\n"
+"    color: white; /* Цвет текста */\n"
+"    border: none; /* Убирает рамку, если есть */\n"
+"}")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         font = QtGui.QFont()
         font.setPointSize(10)
@@ -41,10 +41,10 @@ class Ui_MainWindow(object):
         self.centralwidget.setFont(font)
         self.centralwidget.setAutoFillBackground(False)
         self.centralwidget.setStyleSheet("QWidget {\n"
-                                         "    background-color: #2E2B3F; /* Цвет фона */\n"
-                                         "    border: none;\n"
-                                         "}\n"
-                                         "")
+"    background-color: #2E2B3F; /* Цвет фона */\n"
+"    border: none;\n"
+"}\n"
+"")
         self.centralwidget.setObjectName("centralwidget")
         self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
         self.tabWidget.setGeometry(QtCore.QRect(0, 0, 801, 601))
@@ -54,33 +54,33 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.tabWidget.setFont(font)
         self.tabWidget.setStyleSheet("QTabWidget {\n"
-                                     "    background-color: #2E2B3F; /* Цвет фона для всего виджета */\n"
-                                     "    border: none;\n"
-                                     "}\n"
-                                     "\n"
-                                     "QTabBar::tab {\n"
-                                     "    background :#7961F1; /* Цвет фона вкладки */\n"
-                                     "    color: #333333; /* Цвет текста */\n"
-                                     "    padding: 10px; /* Отступы */\n"
-                                     "    border-bottom: none; /* Убираем нижнюю рамку для активной вкладки */\n"
-                                     "}\n"
-                                     "\n"
-                                     "QTabBar::tab:selected {\n"
-                                     "    background: #0090B3; /* Цвет фона для выбранной вкладки */\n"
-                                     "    color: white; /* Цвет текста для выбранной вкладки */\n"
-                                     "}\n"
-                                     "\n"
-                                     "QTabBar::tab:hover {\n"
-                                     "    background-color: #e67e22; /* Цвет фона при наведении */\n"
-                                     "}\n"
-                                     "\n"
-                                     "QTabBar::tab:!selected {\n"
-                                     "    margin-left: 0px; /* Отступ между вкладками */\n"
-                                     "}\n"
-                                     "\n"
-                                     "QTabWidget::pane {\n"
-                                     "    border: none; /* Убирает рамку вокруг вкладок */\n"
-                                     "}")
+"    background-color: #2E2B3F; /* Цвет фона для всего виджета */\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QTabBar::tab {\n"
+"    background :#7961F1; /* Цвет фона вкладки */\n"
+"    color: #333333; /* Цвет текста */\n"
+"    padding: 10px; /* Отступы */\n"
+"    border-bottom: none; /* Убираем нижнюю рамку для активной вкладки */\n"
+"}\n"
+"\n"
+"QTabBar::tab:selected {\n"
+"    background: #0090B3; /* Цвет фона для выбранной вкладки */\n"
+"    color: white; /* Цвет текста для выбранной вкладки */\n"
+"}\n"
+"\n"
+"QTabBar::tab:hover {\n"
+"    background-color: #e67e22; /* Цвет фона при наведении */\n"
+"}\n"
+"\n"
+"QTabBar::tab:!selected {\n"
+"    margin-left: 0px; /* Отступ между вкладками */\n"
+"}\n"
+"\n"
+"QTabWidget::pane {\n"
+"    border: none; /* Убирает рамку вокруг вкладок */\n"
+"}")
         self.tabWidget.setObjectName("tabWidget")
         self.tab = QtWidgets.QWidget()
         font = QtGui.QFont()
@@ -89,10 +89,10 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.tab.setFont(font)
         self.tab.setStyleSheet("QWidget {\n"
-                               "    background-color: #221F2E; /* Цвет фона */\n"
-                               "    border: none;\n"
-                               "}\n"
-                               "")
+"    background-color: #221F2E; /* Цвет фона */\n"
+"    border: none;\n"
+"}\n"
+"")
         self.tab.setObjectName("tab")
         self.groupBox_2 = QtWidgets.QGroupBox(self.tab)
         self.groupBox_2.setGeometry(QtCore.QRect(140, 20, 641, 521))
@@ -103,12 +103,12 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.groupBox_2.setFont(font)
         self.groupBox_2.setStyleSheet("QWidget {\n"
-                                      "    background-color: #2E2B3F; /* Цвет фона */\n"
-                                      "    border: none;\n"
-                                      "    border-radius: 5px;\n"
-                                      "    color: #FFFFFF;\n"
-                                      "}\n"
-                                      "")
+"    background-color: #2E2B3F; /* Цвет фона */\n"
+"    border: none;\n"
+"    border-radius: 5px;\n"
+"    color: #FFFFFF;\n"
+"}\n"
+"")
         self.groupBox_2.setFlat(False)
         self.groupBox_2.setCheckable(False)
         self.groupBox_2.setChecked(False)
@@ -121,15 +121,15 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_3.setFont(font)
         self.pushButton_3.setStyleSheet("     QPushButton {\n"
-                                        "         background-color: #0090B3;\n"
-                                        "         color: white;\n"
-                                        "         border: none;\n"
-                                        "         padding: 10px 20px;\n"
-                                        "         border-radius: 5px;\n"
-                                        "     }\n"
-                                        "     QPushButton:hover {\n"
-                                        "         background-color: #e67e22;\n"
-                                        "     }")
+"         background-color: #0090B3;\n"
+"         color: white;\n"
+"         border: none;\n"
+"         padding: 10px 20px;\n"
+"         border-radius: 5px;\n"
+"     }\n"
+"     QPushButton:hover {\n"
+"         background-color: #e67e22;\n"
+"     }")
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_5 = QtWidgets.QPushButton(self.groupBox_2)
         self.pushButton_5.setGeometry(QtCore.QRect(10, 80, 191, 41))
@@ -139,25 +139,25 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_5.setFont(font)
         self.pushButton_5.setStyleSheet("     QPushButton {\n"
-                                        "         background-color: #0090B3;\n"
-                                        "         color: white;\n"
-                                        "         border: none;\n"
-                                        "         padding: 10px 20px;\n"
-                                        "         border-radius: 5px;\n"
-                                        "     }\n"
-                                        "     QPushButton:hover {\n"
-                                        "         background-color: #e67e22;\n"
-                                        "     }")
+"         background-color: #0090B3;\n"
+"         color: white;\n"
+"         border: none;\n"
+"         padding: 10px 20px;\n"
+"         border-radius: 5px;\n"
+"     }\n"
+"     QPushButton:hover {\n"
+"         background-color: #e67e22;\n"
+"     }")
         self.pushButton_5.setObjectName("pushButton_5")
         self.tabWidget.addTab(self.tab, "")
         self.tab_2 = QtWidgets.QWidget()
         self.tab_2.setAutoFillBackground(False)
         self.tab_2.setStyleSheet("QWidget {\n"
-                                 "    background-color: #221F2E; /* Цвет фона */\n"
-                                 "    border: none; /* Убирает рамку у виджета внутри вкладки */\n"
-                                 "    margin: 0; /* Убирает внешние отступы */\n"
-                                 "    padding: 0; /* Убирает внутренние отступы */\n"
-                                 "}")
+"    background-color: #221F2E; /* Цвет фона */\n"
+"    border: none; /* Убирает рамку у виджета внутри вкладки */\n"
+"    margin: 0; /* Убирает внешние отступы */\n"
+"    padding: 0; /* Убирает внутренние отступы */\n"
+"}")
         self.tab_2.setObjectName("tab_2")
         self.groupBox = QtWidgets.QGroupBox(self.tab_2)
         self.groupBox.setGeometry(QtCore.QRect(140, 20, 641, 521))
@@ -168,49 +168,49 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.groupBox.setFont(font)
         self.groupBox.setStyleSheet("QWidget {\n"
-                                    "    background-color: #2E2B3F; /* Цвет фона */\n"
-                                    "    border: none;\n"
-                                    "    border-radius: 5px;\n"
-                                    "    color: #FFFFFF;\n"
-                                    "}\n"
-                                    "")
+"    background-color: #2E2B3F; /* Цвет фона */\n"
+"    border: none;\n"
+"    border-radius: 5px;\n"
+"    color: #FFFFFF;\n"
+"}\n"
+"")
         self.groupBox.setObjectName("groupBox")
-        self.pushButton = QtWidgets.QPushButton(self.groupBox)
-        self.pushButton.setGeometry(QtCore.QRect(10, 30, 191, 41))
+        self.OPORA = QtWidgets.QPushButton(self.groupBox)
+        self.OPORA.setGeometry(QtCore.QRect(10, 30, 191, 41))
         font = QtGui.QFont()
         font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
-        self.pushButton.setFont(font)
-        self.pushButton.setStyleSheet("     QPushButton {\n"
-                                      "         background-color: #0090B3;\n"
-                                      "         color: white;\n"
-                                      "         border: none;\n"
-                                      "         padding: 10px 20px;\n"
-                                      "         border-radius: 5px;\n"
-                                      "     }\n"
-                                      "     QPushButton:hover {\n"
-                                      "         background-color: #e67e22;\n"
-                                      "     }")
-        self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(self.groupBox)
-        self.pushButton_2.setGeometry(QtCore.QRect(10, 80, 191, 41))
+        self.OPORA.setFont(font)
+        self.OPORA.setStyleSheet("     QPushButton {\n"
+"         background-color: #0090B3;\n"
+"         color: white;\n"
+"         border: none;\n"
+"         padding: 10px 20px;\n"
+"         border-radius: 5px;\n"
+"     }\n"
+"     QPushButton:hover {\n"
+"         background-color: #e67e22;\n"
+"     }")
+        self.OPORA.setObjectName("OPORA")
+        self.Zip = QtWidgets.QPushButton(self.groupBox)
+        self.Zip.setGeometry(QtCore.QRect(10, 80, 191, 41))
         font = QtGui.QFont()
         font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
-        self.pushButton_2.setFont(font)
-        self.pushButton_2.setStyleSheet("     QPushButton {\n"
-                                        "         background-color: #0090B3;\n"
-                                        "         color: white;\n"
-                                        "         border: none;\n"
-                                        "         padding: 10px 20px;\n"
-                                        "         border-radius: 5px;\n"
-                                        "     }\n"
-                                        "     QPushButton:hover {\n"
-                                        "         background-color: #e67e22;\n"
-                                        "     }")
-        self.pushButton_2.setObjectName("pushButton_2")
+        self.Zip.setFont(font)
+        self.Zip.setStyleSheet("     QPushButton {\n"
+"         background-color: #0090B3;\n"
+"         color: white;\n"
+"         border: none;\n"
+"         padding: 10px 20px;\n"
+"         border-radius: 5px;\n"
+"     }\n"
+"     QPushButton:hover {\n"
+"         background-color: #e67e22;\n"
+"     }")
+        self.Zip.setObjectName("Zip")
         self.WinRAR = QtWidgets.QPushButton(self.groupBox)
         self.WinRAR.setGeometry(QtCore.QRect(10, 130, 191, 41))
         font = QtGui.QFont()
@@ -219,34 +219,34 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.WinRAR.setFont(font)
         self.WinRAR.setStyleSheet("     QPushButton {\n"
-                                  "         background-color: #0090B3;\n"
-                                  "         color: white;\n"
-                                  "         border: none;\n"
-                                  "         padding: 10px 20px;\n"
-                                  "         border-radius: 5px;\n"
-                                  "     }\n"
-                                  "     QPushButton:hover {\n"
-                                  "         background-color: #e67e22;\n"
-                                  "     }")
+"         background-color: #0090B3;\n"
+"         color: white;\n"
+"         border: none;\n"
+"         padding: 10px 20px;\n"
+"         border-radius: 5px;\n"
+"     }\n"
+"     QPushButton:hover {\n"
+"         background-color: #e67e22;\n"
+"     }")
         self.WinRAR.setObjectName("WinRAR")
-        self.pushButton_4 = QtWidgets.QPushButton(self.groupBox)
-        self.pushButton_4.setGeometry(QtCore.QRect(10, 180, 191, 41))
+        self.Activator = QtWidgets.QPushButton(self.groupBox)
+        self.Activator.setGeometry(QtCore.QRect(10, 180, 191, 41))
         font = QtGui.QFont()
         font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
-        self.pushButton_4.setFont(font)
-        self.pushButton_4.setStyleSheet("     QPushButton {\n"
-                                        "         background-color: #0090B3;\n"
-                                        "         color: white;\n"
-                                        "         border: none;\n"
-                                        "         padding: 10px 20px;\n"
-                                        "         border-radius: 5px;\n"
-                                        "     }\n"
-                                        "     QPushButton:hover {\n"
-                                        "         background-color: #e67e22;\n"
-                                        "     }")
-        self.pushButton_4.setObjectName("pushButton_4")
+        self.Activator.setFont(font)
+        self.Activator.setStyleSheet("     QPushButton {\n"
+"         background-color: #0090B3;\n"
+"         color: white;\n"
+"         border: none;\n"
+"         padding: 10px 20px;\n"
+"         border-radius: 5px;\n"
+"     }\n"
+"     QPushButton:hover {\n"
+"         background-color: #e67e22;\n"
+"     }")
+        self.Activator.setObjectName("Activator")
         self.tabWidget.addTab(self.tab_2, "")
         MainWindow.setCentralWidget(self.centralwidget)
 
@@ -262,16 +262,15 @@ class Ui_MainWindow(object):
         self.pushButton_5.setText(_translate("MainWindow", "Запустить ЖНВЛП"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Пользователи"))
         self.groupBox.setTitle(_translate("MainWindow", "Установка приложений"))
-        self.pushButton.setText(_translate("MainWindow", "Установить ОПОРУ"))
-        self.pushButton_2.setText(_translate("MainWindow", "Установить 7-Zip"))
+        self.OPORA.setText(_translate("MainWindow", "Установить ОПОРУ"))
+        self.Zip.setText(_translate("MainWindow", "Установить 7-Zip"))
         self.WinRAR.setText(_translate("MainWindow", "Установить WinRAR"))
-        self.pushButton_4.setText(_translate("MainWindow", "Запустить активатор"))
+        self.Activator.setText(_translate("MainWindow", "Запустить активатор"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Администратор"))
 
 
 if __name__ == "__main__":
     import sys
-
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()

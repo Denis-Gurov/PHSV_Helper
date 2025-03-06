@@ -271,7 +271,7 @@ QTabWidget::pane {
       <property name="title">
        <string>Установка приложений</string>
       </property>
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="OPORA">
        <property name="geometry">
         <rect>
          <x>10</x>
@@ -303,7 +303,7 @@ QTabWidget::pane {
         <string>Установить ОПОРУ</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="Zip">
        <property name="geometry">
         <rect>
          <x>10</x>
@@ -367,7 +367,7 @@ QTabWidget::pane {
         <string>Установить WinRAR</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="Activator">
        <property name="geometry">
         <rect>
          <x>10</x>
