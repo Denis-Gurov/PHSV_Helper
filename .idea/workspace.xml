@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f427514-716c-48e3-ba0e-9e4b1acfac8a" name="Changes" comment="Zip, WinRAR, OPORA, add exception">
-      <change afterPath="$PROJECT_DIR$/update.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design.py" beforeDir="false" afterPath="$PROJECT_DIR$/design.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.ui" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.ui" afterDir="false" />
-    </list>
+    <list default="true" id="4f427514-716c-48e3-ba0e-9e4b1acfac8a" name="Changes" comment="Updater" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741262069436</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updater">
+      <option name="closed" value="true" />
+      <created>1741265256446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741265256446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Project" />
     <MESSAGE value="Zip, WinRAR, OPORA, add exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zip, WinRAR, OPORA, add exception" />
+    <MESSAGE value="Updater" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updater" />
   </component>
 </project>
